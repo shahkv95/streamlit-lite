@@ -8,6 +8,9 @@ numpy = "*"
 pandas = "*"
 streamlit = "*"
 "plotly.express" = "*"
+bs4 = "*"
+requests = "*"
+lxml = "*"
 
 [dev-packages]
 
