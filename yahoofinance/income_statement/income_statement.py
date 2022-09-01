@@ -1,7 +1,6 @@
 import pandas as pd
 
-def income_statement(income_soup):
-    pass
+def get_income_statement(income_soup):
 
     # ## Empty List of div tags
     financials_div_list = []
