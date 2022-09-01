@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     ticker = st.selectbox(
         "Choose the ticker",
-        ('TSLA','AAPL','MSFT')
+        ('TSLA','AAPL','MSFT','META','GOOGL', 'NVDA', 'AMD', 'AMZN', 'BAC')
     )
 
     scrapped_file = web_scrapper(ticker)
