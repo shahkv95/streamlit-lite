@@ -83,25 +83,3 @@ if __name__ == "__main__":
     st.markdown("###### (All numbers in thousands)")
     st.write(income_df)
 
-
-
-
-
-
-
-# chart_data = pd.DataFrame(
-#     income_df.columns,
-#     columns=income_df.iloc[0]
-# )
-
-# st.write(chart_data)
-
-# # print(income_df.columns)
-
-# # chart_data = pd.DataFrame(
-# #     income_df.columns[1:],
-# #     columns=income_df.iloc[0]
-# # )
-
-# # # print(income_df.columns[1:])
-# st.line_chart(chart_data)
